@@ -15,7 +15,7 @@ export const Navbar = () => {
       console.log(data,'data ka haal');
       if(data.success===true){
         localStorage.removeItem('user');
-        navigate("https://main--thesocialnetworkapp.netlify.app/login");
+        navigate("/login");
       }    
     } catch (error) {
       console.log(error);
